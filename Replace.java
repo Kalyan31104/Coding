@@ -4,7 +4,7 @@ class replace{
     static void replace(String str){
 //replacing all other character than alphabets with empty space
 // if we donot space just remove space 
-       System.out.println(str.replaceAll("^[a-zA-Z]"," "));
+       System.out.println(str.replaceAll("[0-9]+",""));
 
     }
  public static void main(String[] args) {
